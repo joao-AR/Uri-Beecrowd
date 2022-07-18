@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main () 
+{
+    int numero;
+    numero = 1;
+
+    while (numero <= 100)   
+    {
+        if (numero % 2 ==0)
+        {
+            printf ("%i\n",numero);
+        }
+        numero = numero +1;
+    }
+    
+    
+
+
+
+
+return 0;
+}
